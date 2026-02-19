@@ -11,24 +11,24 @@ Find the PDF file here Hidden Confidential Document and uncover the flag within 
 
 ## Step 1: Prepare Files
 Download PDF and ExifTool to local folder:
-
-C:\Users\BANKRAYA-PC\Desktop\Defensive\confidential.pdf
-C:\Program Files\ExifTool\exiftool(-k).exe
-
+```
+"C:\xxx\xxx\Desktop\Defensive\confidential.pdf"
+"C:\Program Files\ExifTool\exiftool(-k).exe"
+```
 ---
 
 ## Step 2: Extract Metadata
 
 **Command:**
 ```
-"C:\Program Files\ExifTool\exiftool(-k).exe" "C:\Users\BANKRAYA-PC\Desktop\Defensive\confidential.pdf"
+"C:\Program Files\ExifTool\exiftool(-k).exe" "C:\xxx\xxx\Desktop\Defensive\confidential.pdf"
 ```
 
 **Output:**
 ```
 ExifTool Version Number         : 13.50
 File Name                       : confidential.pdf
-Directory                       : C:/Users/BANKRAYA-PC/Desktop/Defensive
+Directory                       : C:/xxx/xxx/Desktop/Defensive
 File Size                       : 183 kB
 Zone Identifier                 : Exists
 File Type                       : PDF
